@@ -3,8 +3,12 @@
  **/
 
 
- body {
-    background-image: url("assets/images/funky-lines.png");
+body {
+    background: url(assets/images/funky-lines.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 960px;
 }
 
