@@ -36,11 +36,7 @@
 .p3 {
     float: left;
     background-color: white;
-<<<<<<< HEAD:assets/css/Portfolio.css
     width:55%;
-=======
-    width:40%;
->>>>>>> 88e767c800df4c1da46311ab8addf4a79c2d86c5:assets/css/portfolio.css
     height:50px;
     padding-top: 30px;
     text-align: right;
@@ -56,7 +52,7 @@
 .container {
     position: fixed;
     width: 750px;
-    height: 450px;
+    height: 650px;
     background: white;
     margin-top:90px;
     margin-left: 110px;
@@ -136,7 +132,7 @@
     position: fixed;
     width: 200px;
     height: 150px;
-    background: rgb(207, 205, 205);
+    background: rgb(31, 30, 30);
     left: 140px;
     top: 380px;
 }
@@ -158,5 +154,5 @@
     height: 150px;
     background: rgb(207, 205, 205);
     left: 140px;
-    top: 565px;
+    top: 580px;
 }
