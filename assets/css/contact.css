@@ -36,7 +36,11 @@
 .p3 {
     float: left;
     background-color: white;
+<<<<<<< HEAD
     width:55%;
+=======
+    width:40%;
+>>>>>>> 88e767c800df4c1da46311ab8addf4a79c2d86c5
     height:50px;
     padding-top: 30px;
     text-align: right;
