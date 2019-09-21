@@ -1,122 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-    <title>CSS Practice</title>
-    <!-- Link to your external CSS -->
-
-    <style>
-
-
-h1 {
-  text-align: center;
-  font-size: 24px;
-}
-
-h2 {
-  text-align: left;
-  font-size: 16px;
-}
-
-.one{
-    color: red;
-    font-size: 12px;
-}
-.two{
-    color: blue;
-    font-size: 12px;
-}
-.three{
-    color: green;
-    font-size: 12px;
-}
-.four{
-    font-size: 20px;
-}
-.five{
-    font-size: 7px;
-}
-.six{
-    text-align: center;
-    font-size: 10px;
-}
-.seven{
-    font-weight: bold;
-    font-size: 10px;
-}
-.eight{
-    font-size: 10px;
-}
-.nine{
-    font-size: 16px;
-    color: orange;
-    font-weight: bold;
-}
-.styledFont{
-    font-size: 12px;
-    color: green;
-}
-.ten{
-    font-size: 9px;
-}
-#styledImage{
-    border:5px solid #eba657;
-}
-
-
-    </style>
+  <meta charset="UTF-8">
+  <title>Layout with floats</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-
-    <!-- Center -->
-    <h1>The Wonders of CSS!</h1>
-
-    <hr>
-
-    <h2>Fun With Text!</h2>
-
-    <!-- Change text color -->
-    <p class="one">This text is red.</p>
-    <p class="two">This text is blue.</p>
-    <p class="three">This text is green.</p>
-
-    <!-- Change font-size -->
-    <p class="four">This text is BIG!</p>
-    <p class="five">This text is tiny...</p>
-
-    <!-- Center -->
-    <p class="six">~~This text is centered~~</p>
-
-    <!-- Bold -->
-    <p class="seven">If we have something important to say, we can make it bold!</p>
-
-    <!-- Change font -->
-    <p class="eight">We can even change our font-family if we are feeling creative!</p>
-
-    <!-- Multiple attributes -->
-    <p class="nine">Try combining multiple attributes to make big, orange, bold text!</p>
-
-    <hr>
-
-    <!-- Classes -->
-    <p class="styledFont">We can also apply the same style to multiple HTML elements.</p>
-    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
-    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
-    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
-    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
-    <p class="styledFont">Each one of these lines is within a different &ltp&gt tag, yet they all have the same styling.</p>
-    <p class="styledFont">That's because they are all a part of the same CSS class!</p>
-    <p class="styledFont">CSS classes let us define a style once and let us then apply it to multiple elements!</p>
-    <p class="styledFont">In your external CSS file, create a style for the class styledFont.</p>
-    <p class="styledFont">Notice how every time you change the class styledFont, all of the text changes.</p>
-
-    <hr>
-
-    <p class="ten">Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
-
-    <!-- Border & id -->
-    <img width="250" height="200" id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
-
-    <hr>
-
+    <section class="p1">
+        <header class="p2">Miguel Galarraga</header>
+        <nav class="p3"> 
+                <a class="p4" href="a" target="_blank">About    |</a>
+                <a class="p4" href="portfolio.html" target="_blank">Portfolio    |</a>
+                <a class="p4" href="contact.html" target="_blank">Contact</a>
+        </nav>
+    </section>
+    <div class="container">
+            <header class="p9">About Me</header>
+            <div>
+                    <img class="p12" src="assets/images/MyselfPic.jpg" alt="Picture">
+                    <div class="p13">  
+                     My name is Miguel Galarraga, I'm originally from Venezuela, but having spent almost half of my life abroad. I hold both bachelor and master degrees in geophysics. After living in several countries around the world, I decided to settle here in Miami few years back. I actually spend my times doing consulting work, playing outdoors activities, and enjoying the extraordinary cousine here in Miami. I love animals, specially dogs.
+                    </div>       
+            </div>
+        </br>
+            <div class="p14">
+            I worked for several years for oil & gas industry, living in several countries where I still cherish wonderful momemts spent in those. 
+            </br>
+            </br>      
+            I'm an avid golf player, having played in several courses around the world. Also, I really  like listening to music made in the 80's and 90's.
+            </div>
+    </div>
+    <div class="p10"> <p class="p11">Copyright <span>&#169;</span></p></div>
 </body>
 </html>
