@@ -53,7 +53,7 @@
     position: relative;
     width: 750px;
     height: 380px;
-    background: white;
+    background:#ffffff;
     margin-top:120px;
     margin-left: 170px;
 }
@@ -83,7 +83,7 @@
 .p11 {
 
     text-align: center;
-    color: white;
+    color:#ffffff;
     font-size: 10px;
     margin-top: 25px;
 }
